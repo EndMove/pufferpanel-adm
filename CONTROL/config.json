@@ -1,0 +1,45 @@
+{
+  "general":{
+    "package":"pufferpanel-docker",
+    "name":"PufferPanel",
+    "version":"2.5.1.r03",
+    "depends":[
+      "docker-ce(>=20.10.2.r2)"
+    ],
+    "developer":"PufferPanel",
+    "maintainer":"EndMove",
+    "email":"contact@endmove.eu",
+    "website":"https://www.pufferpanel.com/",
+    "architecture":"x86-64",
+    "firmware":"3.5.0"
+  },
+  "adm-desktop":{
+    "app":{
+      "port":3300,
+      "protocol":"http",
+      "type":"custom",
+      "url":"/" 
+    },
+    "privilege":{
+      "accessible":"users", 
+      "customizable":true 
+    }
+  },
+  "register":{
+    "share-folder":[
+      {
+        "name":"Docker",
+        "description":"Data and files directory for Docker Apps"
+      }           
+    ],
+    "boot-priority":{
+      "start-order":60,
+      "stop-order":40
+    },
+    "port":[
+      "T3300",
+      "T5657",
+      "25565"
+    ]
+  }
+}
