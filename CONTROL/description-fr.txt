@@ -1,1 +1,8 @@
-App Description
+==== PufferPanel ADM [BETA] ====
+
+Cette application est un panel de jeux vidéo pour ADM, permettant d'héberger tout type de jeux vidéo.
+Accédez au panel via "http://your-server-ip:8080/" l'utilisateur par defaut est "admin@admin.com" avec le mot de passe "admin2000".
+
+Un problème ?! Signalez le dès que possible sur github -> https://github.com/EndMove/pufferpanel-adm/issues/new
+
+Bon amusement !

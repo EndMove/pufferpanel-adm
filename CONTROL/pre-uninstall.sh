@@ -28,7 +28,10 @@ echo "pufferpanel-adm: Container and image removed"
 /usr/sbin/syslog --log 0 --level 0 --user "PufferPanel-ADM" --event "PufferPanel container has been removed with its image"
 
 # Saving old Puffer data
-echo "pufferpanel-adm: Saving old pufferpanel data"
-# TODO auto backup system on update
+if [ "$APKG_PKG_STATUS" = "uninstall" ]; then
+  echo "pufferpanel-adm: Saving old pufferpanel data"
+  # TODO auto backup system on update
+  # tar -czf ../backup-puffer.tar.gz ./
+fi
 
 exit 0

@@ -1,1 +1,8 @@
-App Description
+==== PufferPanel ADM [BETA] ====
+
+This application is a video game panel for ADM, allowing to host any kind of video games.
+Access the panel via "http://your-server-ip:8080/" the default user is "admin@admin.com" with the password "admin2000".
+
+Any problem ?! Report it as soon as possible on github -> https://github.com/EndMove/pufferpanel-adm/issues/new
+
+Have fun !
