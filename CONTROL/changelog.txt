@@ -1,2 +1,2 @@
-Version: 2.5.1.r04
+Version: 2.5.1.r05
 - PufferPanel 2.5.1 first release.
