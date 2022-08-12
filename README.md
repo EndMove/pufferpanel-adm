@@ -1,8 +1,9 @@
 # pufferpanel-adm
 
 __PufferPanel version__: _`2.5.1`_
+__ADM package version__: _`2.5.1.r04-BETA`_
 
-![GitHub license](https://img.shields.io/badge/license-GPL--3.0-%23fe7d37) ![GitHub last commit](https://img.shields.io/github/last-commit/EndMove/gitea-adm)
+![GitHub license](https://img.shields.io/badge/license-GPL--3.0-%23fe7d37) ![GitHub last commit](https://img.shields.io/github/last-commit/EndMove/pufferpanel-adm)
 
 [![Donate][link-icon-coffee]][link-paypal-me] [![Website][link-icon-website]][link-website]
 
@@ -33,16 +34,17 @@ __:warning: This application is not an Android application !__
 
 ## Configuration folder
 
-This application will create a folder in `/volume1/Docker/PufferPanel`, this folder will contain all configuration files, and the embedded database if you use it.
+This application will create a folder in `/volume1/Docker/PufferPanel`, this folder will contain all game server, and the embedded database.
 
 ## Configuration
 
 The configuration is automatic, the data storage is persisted on an embedded SQLite3 database.
+You can reach the panel by visiting http://your-server-ip:3300/ the default user and password are `admin@admin.com` and `admin2000`.
 
-## How to update Gitea for ADM ? TODO
+## How to update PufferPanel for ADM ?
 
 When an update is available you can do it directly from APP CENTRAL in ADM. If you want to do it manually, nothing could be easier. Uninstall Gitea and install the new version all your data will be kept, in some cases for major release it is possible that I indicate an additional procedure to follow.
 
-## An issue or a request ? TODO
+## An issue or a request ?
 
-You can report a problem, ask for help or make changes at any time by following this [link](https://github.com/EndMove/gitea-adm/issues/new). Remember that I am not the developer of Gitea but of Gitea-ADM.
+You can report a problem, ask for help or make changes at any time by following this [link](https://github.com/EndMove/pufferpanel-adm/issues/new). Remember that I am not the developer of Gitea but of Gitea-ADM.

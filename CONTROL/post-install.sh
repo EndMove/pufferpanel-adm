@@ -11,17 +11,18 @@ PUFFER_CONTAINER=PufferPanel
 echo "pufferpanel-adm: Creating container"
 /usr/sbin/syslog --log 0 --level 0 --user "PufferPanel-ADM" --event "Creating PufferPanel container"
 docker create -i -t --name=$PUFFER_CONTAINER \
-   --publish 3300:8080 \
-   --publish 5657:5657 \
-   --publish 25565-25675:25565-25675 \
-   --publish 19132-19143:19132-19143/udp \
-   --publish 27016-27027:27016-27027 \
-   --publish 30121-30132:30121-30132 \
-   --volume /usr/builtin/etc/certificate/:/ssl/:ro \
-   --volume $PUFFER_DATA_PATH:/etc/pufferpanel \
-   --volume $PUFFER_DATA_PATH:/var/lib/pufferpanel \
-   --restart=unless-stopped \
-   pufferpanel/pufferpanel:"$PUFFER_VERSION"
+  --net=host \
+  # --publish 3300:8080 \
+  # --publish 5657:5657 \
+  # --publish 25565-25675:25565-25675 \
+  # --publish 19132-19143:19132-19143/udp \
+  # --publish 27016-27027:27016-27027 \
+  # --publish 30121-30132:30121-30132 \
+  --volume /usr/builtin/etc/certificate/:/ssl/:ro \
+  --volume $PUFFER_DATA_PATH:/etc/pufferpanel \
+  --volume $PUFFER_DATA_PATH:/var/lib/pufferpanel \
+  --restart=unless-stopped \
+  pufferpanel/pufferpanel:"$PUFFER_VERSION"
 
 # Starting container
 docker start $PUFFER_CONTAINER

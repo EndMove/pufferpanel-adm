@@ -27,4 +27,8 @@ fi
 echo "pufferpanel-adm: Container and image removed"
 /usr/sbin/syslog --log 0 --level 0 --user "PufferPanel-ADM" --event "PufferPanel container has been removed with its image"
 
+# Saving old Puffer data
+echo "pufferpanel-adm: Saving old pufferpanel data"
+# TODO auto backup system on update
+
 exit 0

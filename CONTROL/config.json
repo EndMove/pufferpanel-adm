@@ -2,7 +2,7 @@
   "general":{
     "package":"pufferpanel-docker",
     "name":"PufferPanel",
-    "version":"2.5.1.r03",
+    "version":"2.5.1.r04",
     "depends":[
       "docker-ce(>=20.10.2.r2)"
     ],
@@ -38,8 +38,7 @@
     },
     "port":[
       "T3300",
-      "T5657",
-      "25565"
+      "T5657"
     ]
   }
 }
