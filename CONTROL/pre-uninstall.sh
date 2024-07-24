@@ -30,7 +30,7 @@ echo "pufferpanel-adm: Container and image removed"
 # Saving old Puffer data
 if [ "$APKG_PKG_STATUS" = "uninstall" ]; then
   echo "pufferpanel-adm: Saving old pufferpanel data"
-  # TODO auto backup system on update
+  # TODO auto backup system on update -> for next version maybe ?
   # tar -czf ../backup-puffer.tar.gz ./
 fi
 

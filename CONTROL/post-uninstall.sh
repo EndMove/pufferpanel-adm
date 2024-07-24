@@ -3,7 +3,7 @@
 echo "pufferpanel-adm: --== post-uninstall ==--"
 
 # Environment variables
-PUFFER_DATA_PATH='/volume1/Docker/PufferPanel'
+PUFFER_DATA_PATH='/share/Docker/PufferPanel'
 
 # Remove the PufferPanel data on uninstall
 if [ "$APKG_PKG_STATUS" = "uninstall" ]; then

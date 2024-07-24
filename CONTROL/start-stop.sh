@@ -18,7 +18,7 @@ case "$1" in
     /usr/sbin/syslog --log 0 --level 0 --user "PufferPanel-ADM" --event "PufferPanel has been stopped"
     sleep 3
     ;;
-  relaod)
+  reload)
     # Reloading pufferpanel
     echo "pufferpanel-adm: Reloading service..."
     docker stop $PUFFER_CONTAINER

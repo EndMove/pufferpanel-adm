@@ -1,8 +1,11 @@
 ==== PufferPanel ADM [BETA] ====
 
-Cette application est un panel de jeux vidéo pour ADM, permettant d'héberger tout type de jeux vidéo.
-Accédez au panel via "http://your-server-ip:8080/" l'utilisateur par defaut est "admin@admin.com" avec le mot de passe "admin2000".
+Cette application est un panel de jeux vidéo pour ADM, vous permettant d'héberger des serveurs pour tout type de jeux vidéo.
+L'accès au panel se fait via "http://your-server-ip:8080/", l'utilisateur par défaut est "admin@admin.com" avec le mot de passe "admin2000".
 
-Un problème ?! Signalez le dès que possible sur github -> https://github.com/EndMove/pufferpanel-adm/issues/new
+Un problème ? ! Signalez-le dès que possible sur github -> https://github.com/EndMove/pufferpanel-adm/issues/new
 
-Bon amusement !
+Amusez-vous bien !
+
+[AVERTISSEMENT IMPORTANT] : Si vous construisez/démarrez un serveur de jeu gourmand en ressources, assurez-vous que votre Serveur/NAS dispose des ressources adéquates. Dans le cas contraire, il est fort probable que Docker Engine consomme toutes les ressources de votre serveur et le rende injoignable. Dans ce type de situation, deux solutions s'offrent à vous : (1) attendre que la situation se stabilise ou (2) redémarrer le serveur. ATTENTION : DÉBRANCHER LA PRISE N'EST PAS UNE SOLUTION. Utilisez plutôt la commande 'reboot' via SSH ou l'interface d'ADM.
+[AVERTISSEMENT DE DÉSINSTALLATION] : Si vous choisisez de désinstaller l'application, toutes les données la concernant seront automatiquement supprimée. Pensez à sauvegarder :-).

@@ -1,7 +1,7 @@
 # pufferpanel-adm
 
-__PufferPanel version__: _`2.5.1`_
-__ADM package version__: _`2.5.1.r10-BETA`_
+__PufferPanel version__: _`2.7.1`_
+__ADM package version__: _`2.7.1.r01-BETA`_
 
 ![GitHub license](https://img.shields.io/badge/license-GPL--3.0-%23fe7d37) ![GitHub last commit](https://img.shields.io/github/last-commit/EndMove/pufferpanel-adm)
 
