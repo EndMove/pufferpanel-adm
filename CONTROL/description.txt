@@ -1,8 +1,11 @@
 ==== PufferPanel ADM [BETA] ====
 
-This application is a video game panel for ADM, allowing to host any kind of video games.
+This application is a video game panel for ADM, allowing you to host servers for any kind of video games.
 Access the panel via "http://your-server-ip:8080/" the default user is "admin@admin.com" with the password "admin2000".
 
 Any problem ?! Report it as soon as possible on github -> https://github.com/EndMove/pufferpanel-adm/issues/new
 
 Have fun !
+
+[IMPORTANT WARNING]: If you are building/starting a resource-intensive game server, make sure your Server/NAS has adequate resources. If not, Docker Engine is likely to consume all your server's resources and render it unreachable. In this type of situation, you have two solutions: (1) wait for the situation to stabilise or (2) restart the server. WARNING: PULLING THE PLUG IS NOT A SOLUTION. Instead, use the 'reboot' command via SSH or the ADM interface.
+[UNINSTALL WARNING]: If you choose to uninstall the application, all data relating to it will be automatically deleted. Don't forget to backup :-).

@@ -1,2 +1,5 @@
+Version: 2.7.1.r01
+- Update PufferPanel to the latest stable minor see (https://github.com/pufferpanel/pufferpanel/releases/tag/v2.7.1).
+
 Version: 2.5.1.r10
 - PufferPanel 2.5.1 first release.
